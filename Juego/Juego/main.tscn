@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=3 uid="uid://bx0ue1ie00lie"]
+
+[ext_resource type="PackedScene" uid="uid://cqng2s5k2ojh8" path="res://BG.tscn" id="2_t2tmh"]
+
+[sub_resource type="GDScript" id="GDScript_d5luu"]
+script/source = "extends Node2D
+
+func _ready():
+	#Utils.saveGame()
+	Utils.loadGame()
+
+func _on_play_pressed():
+	get_tree().change_scene_to_file(\"res://world.tscn\")
+
+
+func _on_quit_pressed():
+	get_tree().quit()
+"
+
+[node name="Main" type="Node2D"]
+script = SubResource("GDScript_d5luu")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 451.0
+offset_top = 151.0
+offset_right = 667.0
+offset_bottom = 264.0
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 453.0
+offset_top = 386.0
+offset_right = 669.0
+offset_bottom = 499.0
+text = "Quit"
+
+[node name="BG" parent="." instance=ExtResource("2_t2tmh")]
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

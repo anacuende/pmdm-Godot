@@ -1,0 +1,9 @@
+res://level_1.tscn
+res://main.tscn
+res://world.tscn
+res://Player/Player.tscn
+res://BG.tscn
+res://Frog.tscn
+res://Collectables/Cherry.tscn
+res://Oposum.tscn
+res://Frog.gd
