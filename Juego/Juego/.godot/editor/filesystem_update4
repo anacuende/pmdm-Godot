@@ -7,3 +7,8 @@ res://Frog.tscn
 res://Collectables/Cherry.tscn
 res://Oposum.tscn
 res://Frog.gd
+res://Ladder.gd
+res://Ladder.tscn
+res://Player/Player.gd
+res://CollisionShape2D.gd
+res://Oposum.gd

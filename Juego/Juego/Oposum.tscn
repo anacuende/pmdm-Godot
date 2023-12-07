@@ -1,5 +1,6 @@
-[gd_scene load_steps=20 format=3 uid="uid://dqwh4aq0jajga"]
+[gd_scene load_steps=21 format=3 uid="uid://dqwh4aq0jajga"]
 
+[ext_resource type="Script" path="res://Oposum.gd" id="1_7voon"]
 [ext_resource type="Texture2D" uid="uid://bj2y0rvorsvcg" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/enemy-deadth.png" id="1_odo0c"]
 [ext_resource type="Texture2D" uid="uid://xsegw1lhmkh8" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/oposum.png" id="2_ryyhm"]
 
@@ -113,6 +114,7 @@ size = Vector2(26, 16)
 size = Vector2(25, 16)
 
 [node name="Oposum" type="CharacterBody2D"]
+script = ExtResource("1_7voon")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, -5.75)
@@ -125,7 +127,6 @@ animation = &"Run"
 frame_progress = 0.484411
 
 [node name="PlayerDetection" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
 shape = SubResource("CircleShape2D_dopr1")
