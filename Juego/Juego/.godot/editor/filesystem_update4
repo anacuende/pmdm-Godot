@@ -1,11 +1,1 @@
-res://main.tscn
-res://world.tscn
-res://Player/Player.tscn
-res://BG.tscn
-res://Frog.tscn
-res://Collectables/Cherry.tscn
-res://level_1.tscn
-res://Ducky.tscn
-res://Ducky.gd
-res://Collectables.gd
 res://level_2.tscn

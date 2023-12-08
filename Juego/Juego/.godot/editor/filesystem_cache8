@@ -1,36 +1,41 @@
 2a60927148abd1d33b818b535e306557
-::res://::1702066101
-BG.gd::GDScript::-1::1702003526::0::1::::<>ParallaxBackground<>::
-BG.tscn::PackedScene::5923113287044959635::1702066100::0::1::::<><>::res://BG.gd<>uid://ckret8341bhsm<>uid://bkqanfna7g8wq
+::res://::1702075148
+AudioStreamPlayer2D.gd::GDScript::-1::1702073938::0::1::::<>AudioStreamPlayer2D<>::
+BG.gd::GDScript::-1::1702072462::0::1::::<>ParallaxBackground<>::
+BG.tscn::PackedScene::5923113287044959635::1702075029::0::1::::<><>::res://BG.gd<>uid://ckret8341bhsm<>uid://bkqanfna7g8wq
 Collectables.gd::GDScript::-1::1702060441::0::1::::<>Node2D<>::
+default_bus_layout.tres::AudioBusLayout::6103606364351919477::1702074199::0::1::::<><>::
+Ducky.gd::GDScript::-1::1702066795::0::1::::<>CharacterBody2D<>::
+Ducky.tscn::PackedScene::1170320774186506408::1702075029::0::1::::<><>::uid://bj2y0rvorsvcg<>res://Ducky.gd<>uid://c0o54g55lvehu
 Frog.gd::GDScript::-1::1702003527::0::1::::<>CharacterBody2D<>::
-Frog.tscn::PackedScene::5713131178545606371::1702066100::0::1::::<><>::res://Frog.gd<>uid://p50qjk3l34k0<>uid://bj2y0rvorsvcg<>uid://c8i18nplvvo60
+Frog.tscn::PackedScene::5713131178545606371::1702075029::0::1::::<><>::res://Frog.gd<>uid://p50qjk3l34k0<>uid://bj2y0rvorsvcg<>uid://c8i18nplvvo60
 icon.svg::CompressedTexture2D::7887335228015400923::1700473134::1700473144::1::::<><>::
-level_1.tscn::PackedScene::4598858263409887837::1702066100::0::1::::<><>::uid://cfdgkyrl53be5<>res://BG.gd<>uid://77or1q1pqh7c<>uid://4l5y7tkacftm<>uid://dp1t5q7oibu5s<>uid://c04nnp4v43umf<>uid://c47xrp1n54a3i<>uid://d01q4n80xpqey<>uid://m06ahk6ktk6v<>uid://cu7tsw30jijux<>uid://qw6aocek785i<>res://Collectables.gd<>uid://nsa25mltpktl
-main.tscn::PackedScene::4053596392431973912::1702066099::0::1::::<><>::uid://cqng2s5k2ojh8
-Ducky.gd::GDScript::-1::1702060060::0::1::::<>CharacterBody2D<>::
-Ducky.tscn::PackedScene::1170320774186506408::1702066100::0::1::::<><>::uid://bj2y0rvorsvcg<>res://Ducky.gd<>uid://c0o54g55lvehu
-level_2.tscn::PackedScene::376255675566047741::1702066101::0::1::::<><>::uid://cfdgkyrl53be5<>uid://xt3aiwp8sxkb<>uid://cnnqo22e57ka2<>res://BG.gd<>uid://4l5y7tkacftm<>uid://qw6aocek785i<>res://Collectables.gd<>uid://nsa25mltpktl
-world.tscn::PackedScene::3845488689373407741::1702066100::0::1::::<><>::uid://4l5y7tkacftm<>uid://cfdgkyrl53be5<>res://BG.gd<>uid://d020ufso6apfn<>uid://b3mg7lkb4q0ov<>uid://ckret8341bhsm<>uid://dihu1knsqpo1d<>uid://c04nnp4v43umf<>uid://cnnqo22e57ka2<>res://Collectables.gd<>uid://nsa25mltpktl<>uid://c47xrp1n54a3i<>uid://cxh22e7mqo41q
-::res://Collectables/::1702066100
+level_1.tscn::PackedScene::4598858263409887837::1702075029::0::1::::<><>::uid://cfdgkyrl53be5<>res://BG.gd<>uid://77or1q1pqh7c<>uid://4l5y7tkacftm<>uid://dp1t5q7oibu5s<>uid://c04nnp4v43umf<>uid://c47xrp1n54a3i<>uid://d01q4n80xpqey<>uid://m06ahk6ktk6v<>uid://cu7tsw30jijux<>uid://qw6aocek785i<>res://Collectables.gd<>uid://nsa25mltpktl<>uid://dvtwwjnc555xm<>res://MusicLevel1.gd
+level_2.tscn::PackedScene::376255675566047741::1702075029::0::1::::<><>::uid://cfdgkyrl53be5<>uid://xt3aiwp8sxkb<>uid://cnnqo22e57ka2<>res://BG.gd<>res://MusicLevel2.gd<>uid://1sff06vj1wmg<>uid://4l5y7tkacftm<>uid://qw6aocek785i<>res://Collectables.gd<>uid://nsa25mltpktl
+main.tscn::PackedScene::4053596392431973912::1702075028::0::1::::<><>::uid://cqng2s5k2ojh8
+MusicLevel1.gd::GDScript::-1::1702074076::0::1::::<>AudioStreamPlayer2D<>::
+MusicLevel2.gd::GDScript::-1::1702074113::0::1::::<>AudioStreamPlayer2D<>::
+world.gd::GDScript::-1::1702071733::0::1::::<>Node2D<>::
+world.tscn::PackedScene::3845488689373407741::1702075028::0::1::::<><>::uid://4l5y7tkacftm<>uid://cfdgkyrl53be5<>res://BG.gd<>res://world.gd<>uid://d020ufso6apfn<>uid://b3mg7lkb4q0ov<>uid://ckret8341bhsm<>uid://dihu1knsqpo1d<>uid://c04nnp4v43umf<>uid://cnnqo22e57ka2<>res://Collectables.gd<>uid://nsa25mltpktl<>uid://c47xrp1n54a3i<>uid://cxh22e7mqo41q<>uid://v6404fo8q3ib<>res://AudioStreamPlayer2D.gd
+::res://Collectables/::1702075029
 Cherry.gd::GDScript::-1::1702003527::0::1::::<>Area2D<>::
-Cherry.tscn::PackedScene::949663578066868289::1702066100::0::1::::<><>::res://Collectables/Cherry.gd<>uid://0mhf8d2smyb8<>uid://cuc87fq6qvo0l<>uid://dnr0hbeml52ol<>uid://6c400ab2l356<>uid://bbvgnp3xnbqwt<>uid://dblmhu4yaoard<>uid://bwv05y2cu2x57
+Cherry.tscn::PackedScene::949663578066868289::1702075029::0::1::::<><>::res://Collectables/Cherry.gd<>uid://0mhf8d2smyb8<>uid://cuc87fq6qvo0l<>uid://dnr0hbeml52ol<>uid://6c400ab2l356<>uid://bbvgnp3xnbqwt<>uid://dblmhu4yaoard<>uid://bwv05y2cu2x57
 ::res://Global/::1702003527
 Game.gd::GDScript::-1::1702003527::0::1::::<>Node<>::
 Utils.gd::GDScript::-1::1702003527::0::1::::<>Node<>::
 ::res://Music by Ansimuz/::1701797261
-::res://Music by Ansimuz/Music by Ansimuz/::1701797261
+::res://Music by Ansimuz/Music by Ansimuz/::1702074913
 dark-happy-world.ogg::AudioStreamOggVorbis::61870589519355747::1700482662::1700482662::1::::<><>::
 Going Up.ogg::AudioStreamOggVorbis::2852459414363421567::1700482662::1700482662::1::::<><>::
-happywalking.ogg::AudioStreamOggVorbis::1539768395994415761::1700482662::1700482662::1::::<><>::
+happywalking.ogg::AudioStreamOggVorbis::1539768395994415761::1700482662::1702074900::1::::<><>::
 Hurt_and_heart.ogg::AudioStreamOggVorbis::8834735221379995248::1700482662::1700482662::1::::<><>::
 magic cliffs.ogg::AudioStreamOggVorbis::8347731208217135643::1700482662::1700482662::1::::<><>::
 Maniac.ogg::AudioStreamOggVorbis::8583250818357218457::1700482662::1700482662::1::::<><>::
 public-license.txt::TextFile::-1::1700482662::0::1::::<><>::
-summer nights.ogg::AudioStreamOggVorbis::8673826499036673122::1700482662::1700482662::1::::<><>::
+summer nights.ogg::AudioStreamOggVorbis::8673826499036673122::1700482662::1702074907::1::::<><>::
 under the rainbow.ogg::AudioStreamOggVorbis::2033079928117045358::1700482662::1700482662::1::::<><>::
 up_and_right.ogg::AudioStreamOggVorbis::7630783982299639266::1700482662::1700482662::1::::<><>::
-walkyandtalky.ogg::AudioStreamOggVorbis::1862382610035183926::1700482662::1700482662::1::::<><>::
+walkyandtalky.ogg::AudioStreamOggVorbis::1862382610035183926::1700482662::1702074913::1::::<><>::
 ::res://Music by Ansimuz/__MACOSX/::1701797261
 ::res://Music by Ansimuz/__MACOSX/Music by Ansimuz/::1701797261
 ._dark-happy-world.ogg::::-1::0::0::0::::<><>::
@@ -54,9 +59,9 @@ platformer_level03_loop.ogg::AudioStreamOggVorbis::586709021134998509::170048266
 ._music-pascal-public-license.txt::TextFile::-1::1700482660::0::1::::<><>::
 ._platformer_level03.mp3::::-1::0::0::0::::<><>::
 ._platformer_level03_loop.ogg::::-1::0::0::0::::<><>::
-::res://Player/::1702066100
+::res://Player/::1702075028
 Player.gd::GDScript::-1::1702003527::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::2060050700187235894::1702066100::0::1::::<><>::res://Player/Player.gd<>uid://cai8ytpbwar5d<>uid://df8g72weyckv2<>uid://b40tqymjym1wl<>uid://c27h7figbwom7<>uid://dik2xru2a32di<>uid://to66bil5u4i<>uid://cdqu48fugjumm<>uid://dojj505iis6al<>uid://dsa286o34lo4<>uid://drellohru04u6<>uid://cfv32j82w2ksc<>uid://jngcttcka0jx<>uid://cg8krd0bhyanl
+Player.tscn::PackedScene::2060050700187235894::1702075028::0::1::::<><>::res://Player/Player.gd<>uid://cai8ytpbwar5d<>uid://df8g72weyckv2<>uid://b40tqymjym1wl<>uid://c27h7figbwom7<>uid://dik2xru2a32di<>uid://to66bil5u4i<>uid://cdqu48fugjumm<>uid://dojj505iis6al<>uid://dsa286o34lo4<>uid://drellohru04u6<>uid://cfv32j82w2ksc<>uid://jngcttcka0jx<>uid://cg8krd0bhyanl
 ::res://Sunny-land-files/::1701797264
 ::res://Sunny-land-files/Sunny-land-files/::1701797261
 public-license.txt::TextFile::-1::1700482662::0::1::::<><>::

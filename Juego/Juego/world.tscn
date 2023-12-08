@@ -1,8 +1,9 @@
-[gd_scene load_steps=18 format=3 uid="uid://bu11vwh8cukqv"]
+[gd_scene load_steps=21 format=3 uid="uid://bu11vwh8cukqv"]
 
 [ext_resource type="PackedScene" uid="uid://4l5y7tkacftm" path="res://Player/Player.tscn" id="1_gdxhd"]
 [ext_resource type="Texture2D" uid="uid://cfdgkyrl53be5" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/tileset.png" id="1_jns5j"]
 [ext_resource type="Script" path="res://BG.gd" id="1_s1xs6"]
+[ext_resource type="Script" path="res://world.gd" id="1_xms0l"]
 [ext_resource type="Texture2D" uid="uid://d020ufso6apfn" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/bush.png" id="2_4n5ia"]
 [ext_resource type="Texture2D" uid="uid://b3mg7lkb4q0ov" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/plant-house.png" id="2_abhqk"]
 [ext_resource type="Texture2D" uid="uid://ckret8341bhsm" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Background/back.png" id="2_q58tn"]
@@ -13,6 +14,8 @@
 [ext_resource type="PackedScene" uid="uid://nsa25mltpktl" path="res://Collectables/Cherry.tscn" id="6_ft4vf"]
 [ext_resource type="Texture2D" uid="uid://c47xrp1n54a3i" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/skulls.png" id="6_xnqpq"]
 [ext_resource type="Texture2D" uid="uid://cxh22e7mqo41q" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/tree.png" id="7_fmara"]
+[ext_resource type="AudioStream" uid="uid://v6404fo8q3ib" path="res://Music by Ansimuz/Music by Ansimuz/happywalking.ogg" id="15_ytg5n"]
+[ext_resource type="Script" path="res://AudioStreamPlayer2D.gd" id="16_tjfj4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ygm7y"]
 texture = ExtResource("1_jns5j")
@@ -490,6 +493,7 @@ func _process(delta):
 "
 
 [node name="World" type="Node2D"]
+script = ExtResource("1_xms0l")
 
 [node name="envairoment" type="Node2D" parent="."]
 
@@ -635,3 +639,15 @@ position = Vector2(1368, 232)
 
 [node name="Cherry9" parent="Collectables" instance=ExtResource("6_ft4vf")]
 position = Vector2(1824, 296)
+
+[node name="GoToLevel1" type="Button" parent="."]
+offset_left = 2136.0
+offset_top = 256.0
+offset_right = 2160.0
+offset_bottom = 296.0
+
+[node name="MusicWorld" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("15_ytg5n")
+script = ExtResource("16_tjfj4")
+
+[connection signal="pressed" from="GoToLevel1" to="." method="_on_go_to_level_1_pressed"]

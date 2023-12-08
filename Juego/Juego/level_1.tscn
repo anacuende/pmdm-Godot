@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://b6ryr2nm3lb5f"]
+[gd_scene load_steps=20 format=3 uid="uid://b6ryr2nm3lb5f"]
 
 [ext_resource type="Texture2D" uid="uid://cfdgkyrl53be5" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/tileset.png" id="1_jygkr"]
 [ext_resource type="Script" path="res://BG.gd" id="2_1h2it"]
@@ -13,6 +13,8 @@
 [ext_resource type="PackedScene" uid="uid://qw6aocek785i" path="res://Ducky.tscn" id="11_htcif"]
 [ext_resource type="Script" path="res://Collectables.gd" id="12_eykvw"]
 [ext_resource type="PackedScene" uid="uid://nsa25mltpktl" path="res://Collectables/Cherry.tscn" id="13_bp36o"]
+[ext_resource type="AudioStream" uid="uid://dvtwwjnc555xm" path="res://Music by Ansimuz/Music by Ansimuz/summer nights.ogg" id="14_wt5vb"]
+[ext_resource type="Script" path="res://MusicLevel1.gd" id="15_6rf6k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ygm7y"]
 texture = ExtResource("1_jygkr")
@@ -41,10 +43,6 @@ texture = ExtResource("1_jygkr")
 11:1/0 = 0
 11:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 11:1/0/physics_layer_0/angular_velocity = 0.0
-13:1/0 = 0
-13:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-13:1/0/physics_layer_0/angular_velocity = 0.0
-13:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 1, 8, 8, -5.5, 8)
 14:1/0 = 0
 14:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 14:1/0/physics_layer_0/angular_velocity = 0.0
@@ -463,6 +461,10 @@ texture = ExtResource("1_jygkr")
 15:21/0 = 0
 15:21/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 15:21/0/physics_layer_0/angular_velocity = 0.0
+13:1/0 = 0
+13:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+13:1/0/physics_layer_0/angular_velocity = 0.0
+13:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, 1, 8, 8, -5.5, 8)
 
 [sub_resource type="TileSet" id="TileSet_vljtt"]
 physics_layer_0/collision_layer = 1
@@ -687,3 +689,16 @@ position = Vector2(1544, 344)
 
 [node name="Cherry16" parent="Collectables" instance=ExtResource("13_bp36o")]
 position = Vector2(1872, 352)
+
+[node name="GoToLevel2" type="Button" parent="."]
+offset_left = 2176.0
+offset_top = 432.0
+offset_right = 2200.0
+offset_bottom = 480.0
+
+[node name="MusicLevel1" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(2176, 432)
+stream = ExtResource("14_wt5vb")
+script = ExtResource("15_6rf6k")
+
+[connection signal="pressed" from="GoToLevel2" to="BG" method="_on_go_to_level_2_pressed"]

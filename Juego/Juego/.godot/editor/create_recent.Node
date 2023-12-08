@@ -1,3 +1,7 @@
+AudioStreamPlayer2D
+Button
+TextEdit
+Label
 CollisionShape2D
 Area2D
 AnimatedSprite2D
@@ -6,7 +10,6 @@ Node2D
 Sprite2D
 Timer
 Node
-Label
 CanvasLayer
 TileMap
 ParallaxLayer
@@ -16,4 +19,3 @@ AnimationPlayer
 Camera2D
 Panel
 StaticBody2D
-Button

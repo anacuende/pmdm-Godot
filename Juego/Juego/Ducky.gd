@@ -9,7 +9,6 @@ func _ready():
 	get_node("AnimatedSprite2D").play("Idle")
 
 func _physics_process(delta):
-	#Gravity para el pesao del patico :/
 	velocity.y += gravity * delta
 	if chase == true:
 		if get_node("AnimatedSprite2D").animation != "Death":
