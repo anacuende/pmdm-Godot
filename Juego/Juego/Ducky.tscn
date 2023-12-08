@@ -1,0 +1,182 @@
+[gd_scene load_steps=25 format=3 uid="uid://qw6aocek785i"]
+
+[ext_resource type="Texture2D" uid="uid://bj2y0rvorsvcg" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/enemy-deadth.png" id="1_odo0c"]
+[ext_resource type="Script" path="res://Ducky.gd" id="1_yles7"]
+[ext_resource type="Texture2D" uid="uid://c0o54g55lvehu" path="res://Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/ducky_3_spritesheet.png" id="3_t6pjv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p3vwx"]
+size = Vector2(15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52p5b"]
+atlas = ExtResource("1_odo0c")
+region = Rect2(0, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tqup6"]
+atlas = ExtResource("1_odo0c")
+region = Rect2(40, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x12hk"]
+atlas = ExtResource("1_odo0c")
+region = Rect2(80, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwp2f"]
+atlas = ExtResource("1_odo0c")
+region = Rect2(120, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qih61"]
+atlas = ExtResource("1_odo0c")
+region = Rect2(160, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3xape"]
+atlas = ExtResource("1_odo0c")
+region = Rect2(200, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rn60q"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_26nah"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r7t68"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i87y7"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(96, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dll3a"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhxns"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_udl0r"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4qac"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(96, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oxy05"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q668d"]
+atlas = ExtResource("3_t6pjv")
+region = Rect2(160, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wbcce"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52p5b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tqup6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x12hk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwp2f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qih61")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3xape")
+}],
+"loop": false,
+"name": &"Death",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rn60q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_26nah")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r7t68")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i87y7")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dll3a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bhxns")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_udl0r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4qac")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oxy05")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q668d")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gs4ky"]
+radius = 256.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_orffc"]
+size = Vector2(20, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_roj10"]
+size = Vector2(18, 10)
+
+[node name="Ducky" type="CharacterBody2D"]
+script = ExtResource("1_yles7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -7.5)
+shape = SubResource("RectangleShape2D_p3vwx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -16)
+sprite_frames = SubResource("SpriteFrames_wbcce")
+animation = &"Run"
+
+[node name="PlayerDetection" type="Area2D" parent="."]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
+shape = SubResource("CircleShape2D_gs4ky")
+
+[node name="PlayerDeath" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDeath"]
+position = Vector2(0, -12)
+shape = SubResource("RectangleShape2D_orffc")
+
+[node name="PlayerCollision" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerCollision"]
+position = Vector2(-1, -5)
+shape = SubResource("RectangleShape2D_roj10")
+
+[connection signal="body_entered" from="PlayerDetection" to="." method="_on_player_detection_body_entered"]
+[connection signal="body_exited" from="PlayerDetection" to="." method="_on_player_detection_body_exited"]
+[connection signal="body_entered" from="PlayerDeath" to="." method="_on_player_death_body_entered"]
+[connection signal="body_entered" from="PlayerCollision" to="." method="_on_player_collision_body_entered"]

@@ -1,22 +1,23 @@
 2a60927148abd1d33b818b535e306557
-::res://::1701961428
-BG.gd::GDScript::-1::1700823974::0::1::::<>ParallaxBackground<>::
-BG.tscn::PackedScene::5923113287044959635::1701961427::0::1::::<><>::res://BG.gd<>uid://ckret8341bhsm<>uid://bkqanfna7g8wq
-Collectables.gd::GDScript::-1::1701078292::0::1::::<>Node2D<>::
-Frog.gd::GDScript::-1::1701905121::0::1::::<>CharacterBody2D<>::
-Frog.tscn::PackedScene::5713131178545606371::1701961427::0::1::::<><>::res://Frog.gd<>uid://p50qjk3l34k0<>uid://bj2y0rvorsvcg<>uid://c8i18nplvvo60
+::res://::1702066101
+BG.gd::GDScript::-1::1702003526::0::1::::<>ParallaxBackground<>::
+BG.tscn::PackedScene::5923113287044959635::1702066100::0::1::::<><>::res://BG.gd<>uid://ckret8341bhsm<>uid://bkqanfna7g8wq
+Collectables.gd::GDScript::-1::1702060441::0::1::::<>Node2D<>::
+Frog.gd::GDScript::-1::1702003527::0::1::::<>CharacterBody2D<>::
+Frog.tscn::PackedScene::5713131178545606371::1702066100::0::1::::<><>::res://Frog.gd<>uid://p50qjk3l34k0<>uid://bj2y0rvorsvcg<>uid://c8i18nplvvo60
 icon.svg::CompressedTexture2D::7887335228015400923::1700473134::1700473144::1::::<><>::
-level_1.tscn::PackedScene::2627657408304068832::1701961428::0::1::::<><>::uid://cfdgkyrl53be5<>res://BG.gd<>uid://77or1q1pqh7c<>uid://4l5y7tkacftm<>uid://dqwh4aq0jajga<>uid://dp1t5q7oibu5s<>uid://c04nnp4v43umf<>uid://c47xrp1n54a3i<>uid://d01q4n80xpqey<>uid://m06ahk6ktk6v<>uid://cu7tsw30jijux<>res://Collectables.gd<>uid://nsa25mltpktl
-main.tscn::PackedScene::4053596392431973912::1701961427::0::1::::<><>::uid://cqng2s5k2ojh8
-Oposum.tscn::PackedScene::8328176692714537504::1701961428::0::1::::<><>::res://Oposum.gd<>uid://bj2y0rvorsvcg<>uid://xsegw1lhmkh8
-Oposum.gd::GDScript::-1::1701961427::0::1::::<>CharacterBody2D<>::
-world.tscn::PackedScene::3845488689373407741::1701961427::0::1::::<><>::uid://4l5y7tkacftm<>uid://cfdgkyrl53be5<>res://BG.gd<>uid://ckret8341bhsm<>uid://cnnqo22e57ka2<>res://Collectables.gd<>uid://nsa25mltpktl
-::res://Collectables/::1701961427
-Cherry.gd::GDScript::-1::1701075992::0::1::::<>Area2D<>::
-Cherry.tscn::PackedScene::949663578066868289::1701961427::0::1::::<><>::res://Collectables/Cherry.gd<>uid://0mhf8d2smyb8<>uid://cuc87fq6qvo0l<>uid://dnr0hbeml52ol<>uid://6c400ab2l356<>uid://bbvgnp3xnbqwt<>uid://dblmhu4yaoard<>uid://bwv05y2cu2x57
-::res://Global/::1701797260
-Game.gd::GDScript::-1::1701160584::0::1::::<>Node<>::
-Utils.gd::GDScript::-1::1700825642::0::1::::<>Node<>::
+level_1.tscn::PackedScene::4598858263409887837::1702066100::0::1::::<><>::uid://cfdgkyrl53be5<>res://BG.gd<>uid://77or1q1pqh7c<>uid://4l5y7tkacftm<>uid://dp1t5q7oibu5s<>uid://c04nnp4v43umf<>uid://c47xrp1n54a3i<>uid://d01q4n80xpqey<>uid://m06ahk6ktk6v<>uid://cu7tsw30jijux<>uid://qw6aocek785i<>res://Collectables.gd<>uid://nsa25mltpktl
+main.tscn::PackedScene::4053596392431973912::1702066099::0::1::::<><>::uid://cqng2s5k2ojh8
+Ducky.gd::GDScript::-1::1702060060::0::1::::<>CharacterBody2D<>::
+Ducky.tscn::PackedScene::1170320774186506408::1702066100::0::1::::<><>::uid://bj2y0rvorsvcg<>res://Ducky.gd<>uid://c0o54g55lvehu
+level_2.tscn::PackedScene::376255675566047741::1702066101::0::1::::<><>::uid://cfdgkyrl53be5<>uid://xt3aiwp8sxkb<>uid://cnnqo22e57ka2<>res://BG.gd<>uid://4l5y7tkacftm<>uid://qw6aocek785i<>res://Collectables.gd<>uid://nsa25mltpktl
+world.tscn::PackedScene::3845488689373407741::1702066100::0::1::::<><>::uid://4l5y7tkacftm<>uid://cfdgkyrl53be5<>res://BG.gd<>uid://d020ufso6apfn<>uid://b3mg7lkb4q0ov<>uid://ckret8341bhsm<>uid://dihu1knsqpo1d<>uid://c04nnp4v43umf<>uid://cnnqo22e57ka2<>res://Collectables.gd<>uid://nsa25mltpktl<>uid://c47xrp1n54a3i<>uid://cxh22e7mqo41q
+::res://Collectables/::1702066100
+Cherry.gd::GDScript::-1::1702003527::0::1::::<>Area2D<>::
+Cherry.tscn::PackedScene::949663578066868289::1702066100::0::1::::<><>::res://Collectables/Cherry.gd<>uid://0mhf8d2smyb8<>uid://cuc87fq6qvo0l<>uid://dnr0hbeml52ol<>uid://6c400ab2l356<>uid://bbvgnp3xnbqwt<>uid://dblmhu4yaoard<>uid://bwv05y2cu2x57
+::res://Global/::1702003527
+Game.gd::GDScript::-1::1702003527::0::1::::<>Node<>::
+Utils.gd::GDScript::-1::1702003527::0::1::::<>Node<>::
 ::res://Music by Ansimuz/::1701797261
 ::res://Music by Ansimuz/Music by Ansimuz/::1701797261
 dark-happy-world.ogg::AudioStreamOggVorbis::61870589519355747::1700482662::1700482662::1::::<><>::
@@ -53,9 +54,9 @@ platformer_level03_loop.ogg::AudioStreamOggVorbis::586709021134998509::170048266
 ._music-pascal-public-license.txt::TextFile::-1::1700482660::0::1::::<><>::
 ._platformer_level03.mp3::::-1::0::0::0::::<><>::
 ._platformer_level03_loop.ogg::::-1::0::0::0::::<><>::
-::res://Player/::1701961427
-Player.gd::GDScript::-1::1701891652::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::2060050700187235894::1701961427::0::1::::<><>::res://Player/Player.gd<>uid://cai8ytpbwar5d<>uid://ds8jsg14dyaig<>uid://c76ugsg4vrr08<>uid://df8g72weyckv2<>uid://teun06gbap0s<>uid://b40tqymjym1wl<>uid://c27h7figbwom7<>uid://dik2xru2a32di<>uid://to66bil5u4i<>uid://cdqu48fugjumm<>uid://dojj505iis6al<>uid://dsa286o34lo4<>uid://drellohru04u6<>uid://cfv32j82w2ksc<>uid://jngcttcka0jx<>uid://cg8krd0bhyanl
+::res://Player/::1702066100
+Player.gd::GDScript::-1::1702003527::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::2060050700187235894::1702066100::0::1::::<><>::res://Player/Player.gd<>uid://cai8ytpbwar5d<>uid://df8g72weyckv2<>uid://b40tqymjym1wl<>uid://c27h7figbwom7<>uid://dik2xru2a32di<>uid://to66bil5u4i<>uid://cdqu48fugjumm<>uid://dojj505iis6al<>uid://dsa286o34lo4<>uid://drellohru04u6<>uid://cfv32j82w2ksc<>uid://jngcttcka0jx<>uid://cg8krd0bhyanl
 ::res://Sunny-land-files/::1701797264
 ::res://Sunny-land-files/Sunny-land-files/::1701797261
 public-license.txt::TextFile::-1::1700482662::0::1::::<><>::
@@ -63,9 +64,10 @@ public-license.txt::TextFile::-1::1700482662::0::1::::<><>::
 ::res://Sunny-land-files/Sunny-land-files/Graphical Assets/Aseprite/::1701797261
 ::res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/::1701797261
 tileset.png::CompressedTexture2D::5130362166097251210::1700482660::1700482664::1::::<><>::
-::res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Background/::1701797261
+::res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Background/::1702061684
 back.png::CompressedTexture2D::5510102801518299476::1700482660::1700482664::1::::<><>::
 background1.png::CompressedTexture2D::2312984872468041358::1701549680::1701549732::1::::<><>::
+background2.jpg::CompressedTexture2D::6034211660351697332::1674726020::1702061684::1::::<><>::
 middle.png::CompressedTexture2D::3121362662201390576::1700482660::1700482664::1::::<><>::
 props.png::CompressedTexture2D::3379484513746017711::1700482660::1700482664::1::::<><>::
 ::res://Sunny-land-files/Sunny-land-files/Graphical Assets/environment/Props/::1701797262
@@ -189,8 +191,9 @@ player-run-3.png::CompressedTexture2D::8361418181536156451::1700482662::17004826
 player-run-4.png::CompressedTexture2D::5168886335590438758::1700482662::1700482664::1::::<><>::
 player-run-5.png::CompressedTexture2D::658905404488677197::1700482662::1700482664::1::::<><>::
 player-run-6.png::CompressedTexture2D::5262736619768311253::1700482662::1700482664::1::::<><>::
-::res://Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/::1701797264
+::res://Sunny-land-files/Sunny-land-files/Graphical Assets/spritesheets/::1702059636
 cherry.png::CompressedTexture2D::806236637712814426::1700482662::1700482664::1::::<><>::
+ducky_3_spritesheet.png::CompressedTexture2D::6558337407562910506::1702003273::1702003314::1::::<><>::
 eagle-attack.png::CompressedTexture2D::2825280661683467983::1700482662::1700482664::1::::<><>::
 enemy-deadth.png::CompressedTexture2D::3075361254466414654::1700482662::1700482664::1::::<><>::
 frog-idle.png::CompressedTexture2D::7107226508988852103::1700482662::1700482664::1::::<><>::
@@ -199,6 +202,8 @@ gem.png::CompressedTexture2D::3826199551253977268::1700482662::1700482664::1::::
 item-feedback.png::CompressedTexture2D::2445820370346314352::1700482662::1700482664::1::::<><>::
 oposum.png::CompressedTexture2D::1651756982170561511::1700482662::1700482664::1::::<><>::
 player.png::CompressedTexture2D::4791403930424265603::1700482662::1700482664::1::::<><>::
+spr_enemy_reg_hurt_strip4.png::CompressedTexture2D::5973288106817728929::1702059606::1702059636::1::::<><>::
+spr_monster_reg_strip4.png::CompressedTexture2D::1153472707148966000::1702059600::1702059636::1::::<><>::
 ::res://Sunny-land-files/__MACOSX/::1701797264
 ::res://Sunny-land-files/__MACOSX/Sunny-land-files/::1701797264
 ._public-license.txt::TextFile::-1::1700482662::0::1::::<><>::
